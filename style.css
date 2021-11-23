@@ -1,0 +1,302 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/mulish-v5-latin-300.eot");
+  src: local(""),
+    url("../fonts/mulish-v5-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v5-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v5-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v5-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/mulish-v5-latin-300.svg#Mulish")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/mulish-v5-latin-regular.eot");
+  src: local(""),
+    url("../fonts/mulish-v5-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v5-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v5-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v5-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/mulish-v5-latin-regular.svg#Mulish") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/mulish-v5-latin-500.eot");
+  src: local(""),
+    url("../fonts/mulish-v5-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v5-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v5-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v5-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/mulish-v5-latin-500.svg#Mulish")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/mulish-v5-latin-700.eot");
+  src: local(""),
+    url("../fonts/mulish-v5-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/mulish-v5-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/mulish-v5-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/mulish-v5-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/mulish-v5-latin-700.svg#Mulish")
+      format("svg"); /* Legacy iOS */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish" Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 1255px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.line{
+  width: 56px;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .container {
+  margin-top: 135px;
+  margin-bottom: 85px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list-item + .nav-list-item {
+  margin-left: 40px;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+
+  opacity: 0.5;
+}
+
+.nav-links:hover {
+  opacity: 1;
+}
+
+.hero {
+  padding: 200px 0;
+  background-image: url(./img/first-pic.png), url(./img/element.png);
+  background-size: 695px 600px, 131px 115px;
+  background-repeat: no-repeat;
+  background-position: right calc(50% - 300px) center, left 10px top 0;
+}
+
+.hero-info {
+  width: 445px;
+}
+
+.hero-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.hero-text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  margin-bottom: 45px;
+}
+
+.hero-link {
+  display: inline-block;
+  background: #458ff6;
+  border-radius: 55px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.service{
+  background-image: url(./img/element.png), url(./img/bg\ element.png);
+  background-repeat: no-repeat;
+  background-size: 131px 115px, 1119px 968px;
+  background-position: top 500px right 390px, top 0 right 748px;
+}
+
+.service .container {
+  margin-bottom: 210px;
+}
+
+.service .container .line{
+  margin: 0 auto 30px auto;
+}
+
+.service-heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.service-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: -30px;
+  padding: 0;
+}
+
+.service-list-item {
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 25px;
+  margin: 30px;
+  padding: 166px 45px 46px 39px;
+  background-image: url(./img/Group.png);
+  background-repeat: no-repeat;
+  background-position: top 54px left 37px;
+}
+
+.service-link {
+  width: 202px;
+  font-weight: bold;
+  font-size: 18px;
+
+  color: #458ff6;
+  text-decoration: none;
+
+  margin: 70px auto 220px auto;
+  border: 1px solid #458ff6;
+  border-radius: 55px;
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+
+.healthcare{
+  /* padding: 200px 0; */
+  background-image: url(./img/healthcare.png);
+  background-repeat: no-repeat;
+  background-size: 650px 477px;
+  background-position: left 255px top 120px;
+
+}
+
+.healthcare .container{
+  margin-bottom: 230px;
+} 
+
+.healthcare-info{
+  width: 486px;
+  margin-left: 787px;
+  padding: 200px 20px;
+}
+
+.healthcare-heading{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 25px;
+ 
+}
+
+.healthcare-text{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  margin-bottom: 37px;
+  margin-top: 0;
+}
+
+.healthcare-link{
+  width: 202px;
+  font-weight: bold;
+  font-size: 18px;
+
+  color: #458ff6;
+  text-decoration: none;
+
+
+  border: 1px solid #458ff6;
+  border-radius: 55px;
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+
